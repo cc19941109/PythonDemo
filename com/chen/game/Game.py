@@ -8,4 +8,8 @@ else:
 
 print("game over ~ ")
 
+for i in [1,2,3,4,5]:
+	print("the num is "+str(i))
+
+
 
