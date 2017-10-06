@@ -21,6 +21,7 @@ year=input('year:')
 month = input('Month[1-12]:')
 day = input('day[1-31]')
 
+# 转换为int型
 month_nub = int(month)
 day_number = int(day)
 
