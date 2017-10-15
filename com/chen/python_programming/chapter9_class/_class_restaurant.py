@@ -20,6 +20,7 @@ class Restaurant():
     def add(self, num=1):
         self.num = self.num + num
 
+
 def test():
     r1 = Restaurant('zhong', type='la')
     r2 = Restaurant('humberger', type='west')

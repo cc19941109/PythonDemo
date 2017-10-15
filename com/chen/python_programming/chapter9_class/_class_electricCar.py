@@ -24,11 +24,14 @@ class ElectricCar(Car):
         """电动汽车没有油箱"""
         print("This car doesn't need a gas tank!")
 
-ecar1  = ElectricCar('tesla','model s',2017)
-print(ecar1.get_desc())
-ecar1.read_battrey_size()
 
-ecar1.battery.desc_battery()
+def test():
+
+    ecar1  = ElectricCar('tesla','model s',2017)
+    print(ecar1.get_desc())
+    ecar1.read_battrey_size()
+
+    ecar1.battery.desc_battery()
 
 
 
