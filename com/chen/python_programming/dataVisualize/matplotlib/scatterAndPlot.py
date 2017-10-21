@@ -10,7 +10,7 @@ plt.ylabel("Square of value",fontsize = 14)
 
 plt.tick_params(axis='both',which = 'major',labelsize = 14)
 
-plt.scatter(values,squares,s=150)
+# plt.scatter(values,squares,s=150)
 
 
 plt.show()
